@@ -232,10 +232,10 @@ def callback_inline(call):
     with open(constants.user_list) as data_file:
         user_data = json.load(data_file)
         if user_data[str(user_id)][3] == 'ru':
-            with open(constants.lang_text, encoding='windows-1251') as d_file:
+            with open(constants.lang_text,  encoding='utf-8') as d_file:
                 lang = json.load(d_file)['ru']
         else:
-            with open(constants.lang_text, encoding='windows-1251') as d_file:
+            with open(constants.lang_text,  encoding='utf-8') as d_file:
                 lang = json.load(d_file)['eng']
     language = user_data[user_id][3]
     if call_type in ban_list[language]:
