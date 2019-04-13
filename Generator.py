@@ -99,13 +99,13 @@ def lang(message):
         user_data = json.load(data_file)
         if str(message.from_user.id) in user_data:
             if user_data[str(message.from_user.id)][3] == 'ru':
-                with open(constants.lang_text) as d_file:
+                with open(constants.lang_text, encoding='windows-1251') as d_file:
                     lang = json.load(d_file)['ru']
             else:
-                with open(constants.lang_text) as d_file:
+                with open(constants.lang_text, encoding='windows-1251') as d_file:
                     lang = json.load(d_file)['eng']
         else:
-            with open(constants.lang_text) as d_file:
+            with open(constants.lang_text, encoding='windows-1251') as d_file:
                 lang = json.load(d_file)['eng']
     return lang
 
