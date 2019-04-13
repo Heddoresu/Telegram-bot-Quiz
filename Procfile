@@ -1,1 +1,1 @@
-bot: python3 botAnimeQuizzes.py
+bot: python botAnimeQuizzes.py
