@@ -1,0 +1,104 @@
+{
+  "ru":{
+    "menu":[
+      "Играть в викторины",
+      "Рейтинг",
+      "/settings",
+      "Добро пожаловать в Anime Quizzes",
+      "Добавить контент"
+    ],
+    "help":[
+      "Пункт Играть в викторины - позволяет зайти в меню выбора типа викторины.\nПункт Рейтинг - разрешает просмотреть лучших игроков в каждом отдельном типе викторин.\nНе забывайте чистить загруженные файлы на ваших устройствах.\nСпасибо Вам что используете бота =)"
+    ],
+    "playQuiz":[
+      "Фото викторина",
+      "Музыкальная викторина",
+      "Эмодзи викторина",
+      "Выход в меню",
+      "Выберете тип игры"
+    ],
+    "ladder":[
+      "Рейтинг по фото",
+      "Рейтинг по музыке",
+      "Рейтинг по эмодзи",
+      "Выход в меню",
+      "Выберете тип рейтинга",
+      "№        id          счет",
+      "Ты"
+    ],
+    "exit to menu":
+      "Твой счет = ",
+    "win":
+      "Ты выйграл",
+    "refresh": {
+      "photo": "Начать фото викторину заново",
+      "audio": "Начать музыкальную викторину заново",
+      "emoji": "Начать емоджи викторину заново",
+      "lose": "Ты проиграл =(\nСчет ="
+    },
+    "exit":
+      "Выход в меню",
+    "settings":
+      "Выбор языка",
+    "guess":
+      "Это что за аниме ?",
+    "ban": {
+      "req": "Сообщить о нарушение",
+      "alr": "Вы уже сообщали о нарушении",
+      "ty": "Спасибо за работу"
+    },
+    "content":
+      "Чтобы добавить фото загружайте файл с добавлением подписи по типу:\nСложность название аниме\nСложность есть трёх типов: easy, hard, medium\nЖелательный размер файла 100 Кбайт\nЕмоджи и опенинг пока что добавить нельзя."
+  },
+  "eng":{
+    "menu":[
+      "Play the quiz",
+      "Ladder",
+      "/settings",
+      "Welcome to Anime Quiszzes",
+      "Add content"
+    ],
+    "help":[
+      "The item Play Quiz - allows you to enter the menu for choosing the type of quiz.\nItem rating - allows you to view the best players in each type of quiz.\nDo not forget to clean the downloaded files on your devices.\nThank you for using bot =)"
+    ],
+    "playQuiz":[
+      "Photo Quiz",
+      "Music Quiz",
+      "Emoji Quiz",
+      "Exit to menu",
+      "Choose game type"
+    ],
+    "ladder":[
+      "Photo record",
+      "Music record",
+      "Emoji record",
+      "Exit to menu",
+      "Choose ladder type",
+      "№        id          score",
+      "You"
+    ],
+    "exit to menu":
+      "your score = ",
+    "win":
+      "You Win",
+    "refresh": {
+      "photo": "Start photo quiz again",
+      "audio": "Start music quiz again",
+      "emoji": "Start emoji quiz again",
+      "lose": "You lose =(\nScore ="
+    },
+    "exit":
+      "Exit to menu",
+    "settings":
+      "Change language",
+    "guess":
+      "what is this anime ?",
+    "ban": {
+      "req": "Report a violation",
+      "alr": "You have already reported a violation",
+      "ty": "Thanks for the work"
+    },
+    "content":
+      "If you want to add a photo, upload a file by adding a signature by type:\nDifficulty name anime\nThe difficulty is of three types: easy, hard, medium\nDesired file size 100 Kbyte\nEmoji and opening is not yet possible to add."
+  }
+}

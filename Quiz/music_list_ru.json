@@ -1,0 +1,359 @@
+{
+  "easy": {
+    "Чёрный клевер": [
+      "BCloverOp_easy_1.ogg",
+      "BCloverOp_easy_2.ogg"
+    ],
+    "Милый во Франксе": [
+      "FranXXOp_easy_1.ogg",
+      "FranXXOp_easy_2.ogg"
+    ],
+    "Убийца Акамэ!": [
+      "Akame_easy_1.ogg"
+    ],
+    "Токийский Гуль": [
+      "Goul_easy_1.ogg",
+      "Goul_easy_2.ogg"
+    ],
+    "История монстров": [
+      "Bakemonogatari_easy_1.ogg"
+    ],
+    "Стальной Алхимик": [
+      "FullAlchemist_easy_1.ogg",
+      "FullAlchemist_easy_2.ogg"
+    ],
+    "Этот замечательный мир!": [
+      "Konosuba_easy_1.ogg"
+    ],
+    "Кагуя хочет, чтобы ей признались": [
+      "Kaguya-sama_easy_1.ogg"
+    ],
+    "Поцелуй сестер": [
+      "KissXsis_easy_1.ogg"
+    ],
+    "Хвост Феи": [
+      "FTailOP_easy_1.ogg",
+      "FTailOP_easy_2.ogg",
+      "FTailOP_easy_3.ogg",
+      "FTailOP_easy_4.ogg",
+      "FTailOP_easy_5.ogg",
+      "FTailOP_easy_6.ogg",
+      "FTailOP_easy_7.ogg",
+      "FTailOP_easy_8.ogg",
+      "FTailOP_easy_9.ogg"
+    ],
+    "Мастер Меча Онлайн": [
+      "SAOOp_easy_1.ogg",
+      "SAOOp_easy_3.ogg",
+      "SAOOp_easy_2.ogg"
+    ],
+    "Блич": [
+      "BleachOp_easy_1.ogg",
+      "BleachOp_easy_2.ogg",
+      "BleachOp_easy_3.ogg",
+      "BleachOp_easy_4.ogg",
+      "BleachOp_easy_5.ogg",
+      "BleachOp_easy_6.ogg",
+      "BleachOp_easy_7.ogg"
+    ],
+    "Атака Титанов": [
+      "AttackTitan_easy_1.ogg",
+      "AttackTitan_easy_2.ogg"
+    ],
+    "Паразит - Учение о жизни": [
+      "Parasit_easy_1.ogg"
+    ],
+    "Синий Екзорцист": [
+      "BlueEx_easy_1.ogg"
+    ],
+    "Моя геройская академия": [
+      "MyHero_easy_1.ogg",
+      "MyHero_easy_2.ogg",
+      "MyHero_easy_3.ogg"
+    ],
+    "Жизнь в альтернативном мире с нуля": [
+      "ReZero_easy_1.ogg",
+      "ReZero_easy_2.ogg"
+    ],
+    "Тетрадь Смерти": [
+      "DeathNote_easy_1.ogg",
+      "DeathNote_easy_2.ogg"
+    ],
+    "Пожиратель душ": [
+      "SoulEater_easy_1.ogg",
+      "SoulEater_easy_2.ogg"
+    ],
+    "Ван Пис": [
+      "OnePiece_easy_1.ogg",
+      "OnePiece_easy_2.ogg",
+      "OnePiece_easy_3.ogg",
+      "OnePiece_easy_4.ogg",
+      "OnePiece_easy_5.ogg"
+    ],
+    "Демоны старшей школы": [
+      "DemonScool_easy_1.ogg"
+    ],
+    "Нет игры - нет жизни": [
+      "NoGameNoLife_easy_1.ogg"
+    ],
+    "Владыка": [
+      "Overlord_easy_1.ogg",
+      "Overlord_easy_2.ogg"
+    ],
+    "Бездомный Бог": [
+      "Noragami_easy_1.ogg"
+    ],
+    "Баскетбол Куроко": [
+      "KurokoNoBasket_easy_1.ogg"
+    ],
+    "7 Смертных грехов": [
+      "7Sins_easy_1.ogg"
+    ],
+    "Приключение ДжоДжо": [
+      "Jojo_easy_1.ogg",
+      "Jojo_easy_2.ogg",
+      "Jojo_easy_3.ogg",
+      "Jojo_easy_4.ogg"
+    ]
+  },
+  "medium": {
+    "Блич": [
+      "BleachOp_mid_1.ogg",
+      "BleachOp_mid_2.ogg",
+      "BleachOp_mid_3.ogg",
+      "BleachOp_mid_4.ogg",
+      "BleachOp_mid_5.ogg",
+      "BleachOp_mid_6.ogg",
+      "BleachOp_mid_7.ogg"
+    ],
+    "Этот замечательный мир!": [
+      "Konosuba_mid_1.ogg"
+    ],
+    "Дороро": [
+      "Dororo_mid_1.ogg"
+    ],
+    "Токийский Гуль": [
+      "Goul_mid_1.ogg"
+    ],
+    "Убийца Акамэ!": [
+      "Akame_mid_1.ogg"
+    ],
+    "Скучный мир, в котором не сущест. концепции похабных шуток": [
+      "Shimoneta_mid_1.ogg"
+    ],
+    "Чёрный дворецкий": [
+      "BlackButler_mid_1.ogg",
+      "BlackButler_mid_2.ogg"
+    ],
+    "О моём перерождении в слизь": [
+      "Slime_mid_1.ogg",
+      "Slime_mid_2.ogg"
+    ],
+    "Иная": [
+      "Another_mid_1.ogg"
+    ],
+    "Класc убийц": [
+      "ClassKiller_mid_1.ogg",
+      "ClassKiller_mid_2.ogg",
+      "ClassKiller_mid_3.ogg"
+    ],
+    "7 Смертных грехов": [
+      "7Sins_mid_1.ogg",
+      "7Sins_mid_2.ogg"
+    ],
+    "Стальной Алхимик": [
+      "FullAlchemist_mid_1.ogg",
+      "FullAlchemist_mid_2.ogg",
+      "FullAlchemist_mid_3.ogg"
+    ],
+    "Хвост Феи": [
+      "FTailOP_mid_1.ogg",
+      "FTailOP_mid_2.ogg",
+      "FTailOP_mid_3.ogg",
+      "FTailOP_mid_4.ogg",
+      "FTailOP_mid_5.ogg",
+      "FTailOP_mid_6.ogg",
+      "FTailOP_mid_7.ogg",
+      "FTailOP_mid_8.ogg"
+    ],
+    "Демоны старшей школы": [
+      "DemonScool_mid_1.ogg"
+    ],
+    "Атака Титанов": [
+      "AttackTitan_mid_1.ogg"
+    ],
+    "Владыка": [
+      "Overlord_mid_1.ogg"
+    ],
+    "Корона грешника": [
+      "GuiltyCrown_mid_1.ogg"
+    ],
+    "Восхождение героя щита": [
+      "RisingShield_mid_1.ogg"
+    ],
+    "Врата Штейна": [
+      "SteinsGate_mid_1.ogg",
+      "SteinsGate_mid_2.ogg"
+    ],
+    "Город, в котором меня нет": [
+      "BokuDake_mid_1.ogg"
+    ],
+    "Баскетбол Куроко": [
+      "KurokoNoBasket_mid_1.ogg",
+      "KurokoNoBasket_mid_2.ogg"
+    ],
+    "Хантер Х Хантер": [
+      "Hunter_mid_1.ogg"
+    ],
+    "В подземелье я пойду, там красавицу найду": [
+      "Dungeon_mid_1.ogg"
+    ],
+    "Мастер Меча Онлайн": [
+      "SAOOp_mid_1.ogg",
+      "SAOOp_mid_3.ogg",
+      "SAOOp_mid_2.ogg"
+    ],
+    "Чёрный клевер": [
+      "BCloverOp_mid_1.ogg",
+      "BCloverOp_mid_2.ogg"
+    ],
+    "Ван Пис": [
+      "OnePiece_mid_1.ogg",
+      "OnePiece_mid_2.ogg",
+      "OnePiece_mid_3.ogg",
+      "OnePiece_mid_4.ogg",
+      "OnePiece_mid_5.ogg"
+    ],
+    "Бездомный Бог": [
+      "Noragami_mid_1.ogg"
+    ],
+    "Кошечка из Сакурасо": [
+      "Sakurasou_mid_1.ogg",
+      "Sakurasou_mid_2.ogg"
+    ],
+    "Две Звезды Онмеджи": [
+      "SouseiNoOnmyouji_mid_1.ogg",
+      "SouseiNoOnmyouji_mid_2.ogg"
+    ],
+    "Синий Екзорцист": [
+      "BlueEx_mid_1.ogg",
+      "BlueEx_mid_2.ogg"
+    ],
+    "Последний серафим": [
+      "LastSerafim_mid_1.ogg",
+      "LastSerafim_mid_2.ogg"
+    ],
+    "Дневник будущего": [
+      "MiraiNikki_mid_1.ogg"
+    ],
+    "Приключение ДжоДжо": [
+      "Jojo_mid_1.ogg",
+      "Jojo_mid_2.ogg"
+    ]
+  },
+  "hard": {
+    "Блич": [
+      "BleachOp_hard_1.ogg"
+    ],
+    "Две Звезды Онмеджи": [
+      "SouseiNoOnmyouji_hard_1.ogg",
+      "SouseiNoOnmyouji_hard_2.ogg"
+    ],
+    "Хвост Феи": [
+      "FTailOP_hard_1.ogg",
+      "FTailOP_hard_2.ogg",
+      "FTailOP_hard_3.ogg"
+    ],
+    "Чёрный клевер": [
+      "BCloverOp_hard_1.ogg",
+      "BCloverOp_hard_2.ogg"
+    ],
+    "Чёрный дворецкий": [
+      "BlackButler_hard_1.ogg"
+    ],
+    "Клас убийц": [
+      "ClassKiller_hard_1.ogg"
+    ],
+    "Атака Титанов": [
+      "AttackTitan_hard_1.ogg"
+    ],
+    "История монстров": [
+      "Bakemonogatari_hard_1.ogg",
+      "Bakemonogatari_hard_2.ogg",
+      "Bakemonogatari_hard_3.ogg",
+      "Bakemonogatari_hard_4.ogg"
+    ],
+    "Ди Грей-мен": [
+      "D.Gray-Man_hard_1.ogg",
+      "D.Gray-Man_hard_2.ogg"
+    ],
+    "Демоны старшей школы": [
+      "DemonScool_hard_1.ogg"
+    ],
+    "Моб психо 100": [
+      "MobPsycho_hard_1.ogg",
+      "MobPsycho_hard_2.ogg"
+    ],
+    "Сатана на подработке": [
+      "Satana_hard_1.ogg"
+    ],
+    "Баскетбол Куроко": [
+      "KurokoNoBasket_hard_1.ogg",
+      "KurokoNoBasket_hard_2.ogg",
+      "KurokoNoBasket_hard_3.ogg"
+    ],
+    "Подручный Луизы-нулизы": [
+      "Luisa_hard_1.ogg"
+    ],
+    "Обещанный Неверленд": [
+      "Neverland_hard_1.ogg"
+    ],
+    "Переворотный суд": [
+      "Low_hard_1.ogg",
+      "Low_hard_2.ogg"
+    ],
+    "Корона грешника": [
+      "GuiltyCrown_hard_1.ogg"
+    ],
+    "Повелитель тьмы: другая история мира": [
+      "Diablo_hard_1.ogg"
+    ],
+    "Любовь тирана": [
+      "LoveTyrant_mid_1.ogg"
+    ],
+    "Домекано": [
+      "Domestic_hard_1.ogg"
+    ],
+    "Ван Пис": [
+      "OnePiece_hard_1.ogg",
+      "OnePiece_hard_2.ogg",
+      "OnePiece_hard_3.ogg",
+      "OnePiece_hard_4.ogg",
+      "OnePiece_hard_5.ogg",
+      "OnePiece_hard_6.ogg"
+    ],
+    "Пожиратель душ": [
+      "SoulEater_hard_1.ogg"
+    ],
+    "В подземелье я пойду, там красавицу найду": [
+      "Dungeon_hard_1.ogg"
+    ],
+    "Дневник будущего": [
+      "MiraiNikki_hard_1.ogg",
+      "MiraiNikki_hard_2.ogg"
+    ],
+    "Невеста чародея": [
+      "TsukainoYome_hard_1.ogg"
+    ],
+    "Токийский Гуль": [
+      "Goul_hard_1.ogg"
+    ],
+    "7 Смертных грехов": [
+      "7Sins_hard_1.ogg"
+    ],
+    "Приключение ДжоДжо": [
+      "Jojo_hard_1.ogg",
+      "Jojo_hard_2.ogg"
+    ]
+  }
+}
