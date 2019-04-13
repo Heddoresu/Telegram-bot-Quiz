@@ -9,7 +9,7 @@ import Generator
 import constants
 
 
-bot = telebot.TeleBot(constants.token)
+bot = telebot.TeleBot(constants.token, threaded=False)
 
 print(bot.get_me())
 mas_photo_quiz = {}
@@ -417,4 +417,10 @@ def handler_photo(message):
         pass
 
 
-bot.infinity_polling(True)
+while True:
+    try:
+        bot.polling(none_stop=True)
+
+    except Exception as e:
+        print(e)  
+        time.sleep(15)
