@@ -76,7 +76,7 @@ def log(message):
                                                                  message.text.encode("utf-8")))
 
 
-def handle_lose(message, score_last: int, lang_text: dict, type_quiz: str):
+def handle_lose(message, score_last: int, lang_text, type_quiz: str):
     lose_markup = telebot.types.ReplyKeyboardMarkup(True, True)
     lose_markup.row('{0}'.format(lang_text["refresh"][type_quiz]))
     lose_markup.row('{0}'.format(lang_text["exit"]))
@@ -217,6 +217,7 @@ def handle_emoji_quiz(message, lang_text):
                      question_emoji.pop(random.randrange(len(question_emoji))))
     emoji_markup.row('{0}'.format(lang_text["exit"]))
     bot.send_message(message.from_user.id, emoji_quiz, reply_markup=emoji_markup)
+    print(mas_emoji_quiz)
 
 
 @bot.callback_query_handler(func=lambda call: True)
@@ -364,7 +365,10 @@ def handle_text(message):
             score_ind = 0
             with open(constants.score_table, encoding='utf-8') as data_file:
                 sc_table = json.load(data_file)
-            handle_lose(message, sc_table[ladder_type][str(message.from_user.id)], lang_text, ladder_type)
+            if str(message.from_user.id) in sc_table[ladder_type]:
+                handle_lose(message, sc_table[ladder_type][str(message.from_user.id)], lang_text, ladder_type)
+            else:
+                handle_lose(message, 0, lang_text, ladder_type)
         """ Рейтинги """
     elif message.text == '{0}'.format(lang_text["ladder"][0]):
         ladder_print(message, 'photo', lang_text)
@@ -415,12 +419,12 @@ def handler_photo(message):
         pass
 
 
-#bot.polling(none_stop=True)
+bot.polling(none_stop=True)
 
-while True:
+"""while True:
     try:
         bot.polling(none_stop=True)
 
     except Exception as e:
         print(e)
-        time.sleep(10)
+        time.sleep(10)"""

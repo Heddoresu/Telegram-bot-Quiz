@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8ce49e7-9876-46c3-a2c5-c931ad1a081f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist.json" beforeDir="false" afterPath="$PROJECT_DIR$/banlist.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/botAnimeQuizzes.py" beforeDir="false" afterPath="$PROJECT_DIR$/botAnimeQuizzes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_list.json" beforeDir="false" afterPath="$PROJECT_DIR$/user_list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emoji_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/emoji_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/score_table.json" beforeDir="false" afterPath="$PROJECT_DIR$/score_table.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,14 +53,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Procfile" value="2" />
-          <entry key="json" value="90" />
+          <entry key="json" value="92" />
           <entry key="py" value="22" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="90" />
+          <entry key="JSON" value="92" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Python" value="22" />
         </counts>
@@ -66,16 +69,16 @@
         <counts>
           <entry key="Procfile" value="45" />
           <entry key="dummy" value="25" />
-          <entry key="json" value="5691" />
-          <entry key="py" value="19230" />
+          <entry key="json" value="5693" />
+          <entry key="py" value="19239" />
           <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="5691" />
+          <entry key="JSON" value="5693" />
           <entry key="PLAIN_TEXT" value="92" />
-          <entry key="Python" value="19230" />
+          <entry key="Python" value="19239" />
         </counts>
       </usages-collector>
     </session>
@@ -88,12 +91,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/botAnimeQuizzes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="274" column="28" selection-start-line="274" selection-start-column="28" selection-end-line="274" selection-end-column="28" />
+            <state relative-caret-position="212">
+              <caret line="368" column="60" lean-forward="true" selection-start-line="368" selection-start-column="60" selection-end-line="368" selection-end-column="60" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
-                <marker date="1555182316068" expanded="true" signature="1438:2351" ph="..." />
-                <marker date="1555182316068" expanded="true" signature="2924:3260" ph="..." />
+                <marker date="1555183508039" expanded="true" signature="1438:2351" ph="..." />
+                <marker date="1555183508039" expanded="true" signature="2918:3254" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,6 +107,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ladder.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -120,8 +132,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/emoji_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1233">
-              <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+            <state relative-caret-position="170">
+              <caret line="163" column="9" selection-start-line="163" selection-start-column="9" selection-end-line="163" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/banlist.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -138,8 +159,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Language_text.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            <state relative-caret-position="306">
+              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -162,15 +183,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/constants.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="54" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -240,10 +252,7 @@
         <option value="$PROJECT_DIR$/Quiz/photo_id_eng.json" />
         <option value="$PROJECT_DIR$/Quiz/photo_list_eng.json" />
         <option value="$PROJECT_DIR$/Quiz/photo_list_ru.json" />
-        <option value="$PROJECT_DIR$/banlist.json" />
         <option value="$PROJECT_DIR$/Quiz/photo_id_ru.json" />
-        <option value="$PROJECT_DIR$/ladder.json" />
-        <option value="$PROJECT_DIR$/emoji_data.py" />
         <option value="$PROJECT_DIR$/constants.py" />
         <option value="$PROJECT_DIR$/Language_text.json" />
         <option value="$PROJECT_DIR$/renewal.py" />
@@ -251,6 +260,9 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Generator.py" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/banlist.json" />
+        <option value="$PROJECT_DIR$/ladder.json" />
+        <option value="$PROJECT_DIR$/emoji_data.py" />
         <option value="$PROJECT_DIR$/botAnimeQuizzes.py" />
       </list>
     </option>
@@ -541,7 +553,35 @@
       <option name="project" value="LOCAL" />
       <updated>1555182055328</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="init">
+      <created>1555182323835</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1555182323835</updated>
+    </task>
+    <task id="LOCAL-00016" summary="init">
+      <created>1555182346681</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1555182346681</updated>
+    </task>
+    <task id="LOCAL-00017" summary="init">
+      <created>1555182364734</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1555182364734</updated>
+    </task>
+    <task id="LOCAL-00018" summary="init">
+      <created>1555182548314</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1555182548314</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -557,8 +597,8 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49127182" visible="true" weight="0.171875" />
-      <window_info id="Structure" order="1" sideWeight="0.5087282" side_tool="true" weight="0.171875" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48877805" visible="true" weight="0.171875" />
+      <window_info id="Structure" order="1" sideWeight="0.51122195" side_tool="true" weight="0.171875" />
       <window_info id="Favorites" order="2" sideWeight="0.502439" side_tool="true" weight="0.23660715" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
@@ -696,27 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/banlist.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ladder.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Language_text.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user_list.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -724,31 +743,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emoji_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1233">
-          <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/score_table.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -763,14 +761,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/banlist.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ladder.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emoji_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="163" column="9" selection-start-line="163" selection-start-column="9" selection-end-line="163" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Language_text.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/score_table.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/botAnimeQuizzes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="274" column="28" selection-start-line="274" selection-start-column="28" selection-end-line="274" selection-end-column="28" />
+        <state relative-caret-position="212">
+          <caret line="368" column="60" lean-forward="true" selection-start-line="368" selection-start-column="60" selection-end-line="368" selection-end-column="60" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
-            <marker date="1555182316068" expanded="true" signature="1438:2351" ph="..." />
-            <marker date="1555182316068" expanded="true" signature="2924:3260" ph="..." />
+            <marker date="1555183508039" expanded="true" signature="1438:2351" ph="..." />
+            <marker date="1555183508039" expanded="true" signature="2918:3254" ph="..." />
           </folding>
         </state>
       </provider>
