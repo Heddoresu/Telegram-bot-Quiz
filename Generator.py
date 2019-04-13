@@ -8,7 +8,7 @@ import constants
 
 def photo_dict(message):
     photo_list = os.curdir + '/Quiz/'
-    with open(constants.user_list, encoding='windows-1251') as data_file:
+    with open(constants.user_list) as data_file:
         user_data = json.load(data_file)
     language = user_data[str(message.from_user.id)][3]
     if language == 'ru':
@@ -42,7 +42,7 @@ def audio_dict(message):
 
 def add_photo(difficulty, anime_name, user_id, photo_id):
     photo_list = os.curdir + '/Quiz/'
-    with open(constants.user_list, encoding='windows-1251') as data_file:
+    with open(constants.user_list) as data_file:
         user_data = json.load(data_file)
     language = user_data[user_id][3]
     with open(photo_list + 'photo_id_{0}.json'.format(language), encoding='utf-8') as data_file:
@@ -59,7 +59,7 @@ def add_photo(difficulty, anime_name, user_id, photo_id):
 
 
 def emoji_dict(message):
-    with open(constants.user_list, encoding='windows-1251') as data_file:
+    with open(constants.user_list) as data_file:
         user_data = json.load(data_file)
     language = user_data[str(message.from_user.id)][3]
     if language == 'ru':

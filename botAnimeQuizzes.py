@@ -120,7 +120,7 @@ def handle_menu(message):
 @bot.message_handler(commands=['ru', 'eng'])
 def handle_user_list(message):
     try:
-        us_list = json.load(open(constants.user_list, encoding='windows-1251'))
+        us_list = json.load(open(constants.user_list))
     except Exception:
         us_list = {}
     if not(str(message.from_user.id) in us_list):
@@ -224,11 +224,11 @@ def callback_inline(call):
     try:
         with open(constants.ban_list, encoding='utf-8') as data_file:
             ban_list = json.load(data_file)
-        with open(constants.user_list, encoding='windows-1251') as file:
+        with open(constants.user_list) as file:
             user_data = json.load(file)
     except Exception:
         ban_list = {}
-    with open(constants.user_list, encoding='windows-1251') as data_file:
+    with open(constants.user_list) as data_file:
         user_data = json.load(data_file)
         if user_data[str(user_id)][3] == 'ru':
             with open(constants.lang_text, encoding='windows-1251') as d_file:
