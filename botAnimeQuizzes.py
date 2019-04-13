@@ -2,6 +2,7 @@
 import telebot
 import random
 import json
+import time
 
 
 import Generator
@@ -420,3 +421,4 @@ while True:
         bot.polling(none_stop=True)
     except Exception as error:
         print(error)
+        time.sleep(10)
