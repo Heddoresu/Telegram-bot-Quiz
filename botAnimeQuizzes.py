@@ -94,7 +94,7 @@ def handle_start(message):
 
 
 @bot.message_handler(commands=["help"])
-def handle_start(message):
+def handle_help(message):
     lang_text = Generator.lang(message)
     bot.send_message(message.from_user.id, '*{0}*'.format(lang_text['help'][0]), parse_mode="Markdown")
 
@@ -417,10 +417,12 @@ def handler_photo(message):
         pass
 
 
-while True:
+bot.polling(none_stop=True)
+
+"""while True:
     try:
         bot.polling(none_stop=True)
 
     except Exception as e:
-        print(e)  
-        time.sleep(15)
+        print(e)
+        time.sleep(10)"""
