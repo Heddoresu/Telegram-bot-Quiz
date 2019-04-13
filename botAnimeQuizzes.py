@@ -267,7 +267,7 @@ def setiings(message):
 
 @bot.message_handler(content_types=['text'])
 def handle_text(message):
-    #log(message)
+    log(message)
     global score_ind, ladder_type
     score_ind = 2
     lang_text = Generator.lang(message)
