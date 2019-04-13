@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8ce49e7-9876-46c3-a2c5-c931ad1a081f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist.json" beforeDir="false" afterPath="$PROJECT_DIR$/banlist.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/botAnimeQuizzes.py" beforeDir="false" afterPath="$PROJECT_DIR$/botAnimeQuizzes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emoji_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/emoji_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/score_table.json" beforeDir="false" afterPath="$PROJECT_DIR$/score_table.json" afterDir="false" />
-    </list>
+    <list default="true" id="d8ce49e7-9876-46c3-a2c5-c931ad1a081f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,14 +63,14 @@
         <counts>
           <entry key="Procfile" value="45" />
           <entry key="dummy" value="25" />
-          <entry key="json" value="5693" />
+          <entry key="json" value="5694" />
           <entry key="py" value="19239" />
           <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="5693" />
+          <entry key="JSON" value="5694" />
           <entry key="PLAIN_TEXT" value="92" />
           <entry key="Python" value="19239" />
         </counts>
@@ -91,12 +85,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/botAnimeQuizzes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="368" column="60" lean-forward="true" selection-start-line="368" selection-start-column="60" selection-end-line="368" selection-end-column="60" />
+            <state relative-caret-position="195">
+              <caret line="136" column="44" lean-forward="true" selection-start-line="136" selection-start-column="44" selection-end-line="136" selection-end-column="44" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
-                <marker date="1555183508039" expanded="true" signature="1438:2351" ph="..." />
-                <marker date="1555183508039" expanded="true" signature="2918:3254" ph="..." />
+                <marker date="1555183637989" expanded="true" signature="1438:2351" ph="..." />
+                <marker date="1555183637989" expanded="true" signature="2918:3254" ph="..." />
               </folding>
             </state>
           </provider>
@@ -114,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ladder.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="51">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -261,8 +255,8 @@
         <option value="$PROJECT_DIR$/Generator.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/banlist.json" />
-        <option value="$PROJECT_DIR$/ladder.json" />
         <option value="$PROJECT_DIR$/emoji_data.py" />
+        <option value="$PROJECT_DIR$/ladder.json" />
         <option value="$PROJECT_DIR$/botAnimeQuizzes.py" />
       </list>
     </option>
@@ -581,7 +575,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555182548314</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="init">
+      <created>1555183541895</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1555183541895</updated>
+    </task>
+    <task id="LOCAL-00020" summary="init">
+      <created>1555183640144</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1555183640144</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -761,31 +769,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/banlist.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ladder.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emoji_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="163" column="9" selection-start-line="163" selection-start-column="9" selection-end-line="163" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -796,6 +783,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/banlist.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/score_table.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -803,14 +797,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/emoji_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="163" column="9" selection-start-line="163" selection-start-column="9" selection-end-line="163" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ladder.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/botAnimeQuizzes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="368" column="60" lean-forward="true" selection-start-line="368" selection-start-column="60" selection-end-line="368" selection-end-column="60" />
+        <state relative-caret-position="195">
+          <caret line="136" column="44" lean-forward="true" selection-start-line="136" selection-start-column="44" selection-end-line="136" selection-end-column="44" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
-            <marker date="1555183508039" expanded="true" signature="1438:2351" ph="..." />
-            <marker date="1555183508039" expanded="true" signature="2918:3254" ph="..." />
+            <marker date="1555183637989" expanded="true" signature="1438:2351" ph="..." />
+            <marker date="1555183637989" expanded="true" signature="2918:3254" ph="..." />
           </folding>
         </state>
       </provider>
