@@ -66,7 +66,7 @@
           <entry key="Procfile" value="39" />
           <entry key="dummy" value="25" />
           <entry key="json" value="5691" />
-          <entry key="py" value="19107" />
+          <entry key="py" value="19108" />
           <entry key="txt" value="22" />
         </counts>
       </usages-collector>
@@ -74,7 +74,7 @@
         <counts>
           <entry key="JSON" value="5691" />
           <entry key="PLAIN_TEXT" value="86" />
-          <entry key="Python" value="19107" />
+          <entry key="Python" value="19108" />
         </counts>
       </usages-collector>
     </session>
@@ -84,15 +84,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/botAnimeQuizzes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="399" column="45" lean-forward="true" selection-start-line="399" selection-start-column="45" selection-end-line="399" selection-end-column="45" />
+            <state relative-caret-position="203">
+              <caret line="418" column="50" selection-start-line="418" selection-start-column="50" selection-end-line="418" selection-end-column="50" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
-                <marker date="1555178463382" expanded="true" signature="1410:2323" ph="..." />
-                <marker date="1555178463382" expanded="true" signature="2896:3232" ph="..." />
+                <marker date="1555178969947" expanded="true" signature="1410:2323" ph="..." />
+                <marker date="1555178969947" expanded="true" signature="2896:3232" ph="..." />
               </folding>
             </state>
           </provider>
@@ -107,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -137,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Language_text.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="229" selection-start-line="10" selection-start-column="229" selection-end-line="10" selection-end-column="229" />
+            <state relative-caret-position="136">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -146,11 +146,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="97" column="56" selection-start-line="97" selection-start-column="56" selection-end-line="97" selection-end-column="56" />
+            <state relative-caret-position="-171">
+              <caret line="106" column="13" lean-forward="true" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <marker date="1555178463325" expanded="true" signature="3069:3144" ph="..." />
+                <marker date="1555178969892" expanded="true" signature="2994:3069" ph="..." />
               </folding>
             </state>
           </provider>
@@ -185,8 +185,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>update</find>
-      <find>score</find>
       <find>all_files</find>
       <find>json_ladder_now</find>
       <find>prob</find>
@@ -215,6 +213,8 @@
       <find>buta</find>
       <find>print</find>
       <find>open</find>
+      <find>ladder</find>
+      <find>constants.user_list</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -477,7 +477,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555178467145</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="init">
+      <created>1555178843544</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555178843544</updated>
+    </task>
+    <task id="LOCAL-00007" summary="init">
+      <created>1555179121762</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555179121762</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -490,15 +504,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49127182" visible="true" weight="0.171875" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49127182" visible="true" weight="0.171875" />
       <window_info id="Structure" order="1" sideWeight="0.5087282" side_tool="true" weight="0.171875" />
       <window_info id="Favorites" order="2" sideWeight="0.502439" side_tool="true" weight="0.23660715" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34369886" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34369886" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -639,13 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Language_text.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="229" selection-start-line="10" selection-start-column="229" selection-end-line="10" selection-end-column="229" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/emoji_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -674,29 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/botAnimeQuizzes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="399" column="45" lean-forward="true" selection-start-line="399" selection-start-column="45" selection-end-line="399" selection-end-column="45" />
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-            <marker date="1555178463382" expanded="true" signature="1410:2323" ph="..." />
-            <marker date="1555178463382" expanded="true" signature="2896:3232" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="97" column="56" selection-start-line="97" selection-start-column="56" selection-end-line="97" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1555178463325" expanded="true" signature="3069:3144" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -707,7 +691,37 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Language_text.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="106" column="13" lean-forward="true" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1555178969892" expanded="true" signature="2994:3069" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/botAnimeQuizzes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="418" column="50" selection-start-line="418" selection-start-column="50" selection-end-line="418" selection-end-column="50" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+            <marker date="1555178969947" expanded="true" signature="1410:2323" ph="..." />
+            <marker date="1555178969947" expanded="true" signature="2896:3232" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
