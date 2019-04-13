@@ -217,7 +217,6 @@ def handle_emoji_quiz(message, lang_text):
                      question_emoji.pop(random.randrange(len(question_emoji))))
     emoji_markup.row('{0}'.format(lang_text["exit"]))
     bot.send_message(message.from_user.id, emoji_quiz, reply_markup=emoji_markup)
-    print(mas_emoji_quiz)
 
 
 @bot.callback_query_handler(func=lambda call: True)
