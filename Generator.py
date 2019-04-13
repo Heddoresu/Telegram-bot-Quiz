@@ -95,7 +95,7 @@ def theme_question(dict_theme, count):
 
 
 def lang(message):
-    with open(constants.user_list, encoding='windows-1251') as data_file:
+    with open(constants.user_list) as data_file:
         user_data = json.load(data_file)
         if str(message.from_user.id) in user_data:
             if user_data[str(message.from_user.id)][3] == 'ru':
