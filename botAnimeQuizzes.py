@@ -416,9 +416,5 @@ def handler_photo(message):
     else:
         pass
 
-while True:
-    try:
-        bot.polling(none_stop=True)
-    except Exception as error:
-        print(error)
-        time.sleep(10)
+
+bot.infinity_polling(True)

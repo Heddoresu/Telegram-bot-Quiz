@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8ce49e7-9876-46c3-a2c5-c931ad1a081f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d8ce49e7-9876-46c3-a2c5-c931ad1a081f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,7 @@
           <entry key="Procfile" value="39" />
           <entry key="dummy" value="25" />
           <entry key="json" value="5691" />
-          <entry key="py" value="19108" />
+          <entry key="py" value="19161" />
           <entry key="txt" value="22" />
         </counts>
       </usages-collector>
@@ -74,7 +72,7 @@
         <counts>
           <entry key="JSON" value="5691" />
           <entry key="PLAIN_TEXT" value="86" />
-          <entry key="Python" value="19108" />
+          <entry key="Python" value="19161" />
         </counts>
       </usages-collector>
     </session>
@@ -87,12 +85,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/botAnimeQuizzes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="418" column="50" selection-start-line="418" selection-start-column="50" selection-end-line="418" selection-end-column="50" />
+            <state relative-caret-position="220">
+              <caret line="419" column="34" selection-start-line="419" selection-start-column="34" selection-end-line="419" selection-end-column="34" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
-                <marker date="1555178969947" expanded="true" signature="1410:2323" ph="..." />
-                <marker date="1555178969947" expanded="true" signature="2896:3232" ph="..." />
+                <marker date="1555179548826" expanded="true" signature="1410:2323" ph="..." />
+                <marker date="1555179548826" expanded="true" signature="2896:3232" ph="..." />
               </folding>
             </state>
           </provider>
@@ -491,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555179121762</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="init">
+      <created>1555179551562</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555179551562</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -715,12 +720,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/botAnimeQuizzes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="418" column="50" selection-start-line="418" selection-start-column="50" selection-end-line="418" selection-end-column="50" />
+        <state relative-caret-position="220">
+          <caret line="419" column="34" selection-start-line="419" selection-start-column="34" selection-end-line="419" selection-end-column="34" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
-            <marker date="1555178969947" expanded="true" signature="1410:2323" ph="..." />
-            <marker date="1555178969947" expanded="true" signature="2896:3232" ph="..." />
+            <marker date="1555179548826" expanded="true" signature="1410:2323" ph="..." />
+            <marker date="1555179548826" expanded="true" signature="2896:3232" ph="..." />
           </folding>
         </state>
       </provider>
