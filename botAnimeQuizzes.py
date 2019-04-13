@@ -418,12 +418,12 @@ def handler_photo(message):
         pass
 
 
-bot.polling(none_stop=True)
+#bot.polling(none_stop=True)
 
-"""while True:
+while True:
     try:
         bot.polling(none_stop=True)
 
     except Exception as e:
         print(e)
-        time.sleep(10)"""
+        time.sleep(10)
