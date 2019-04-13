@@ -225,8 +225,6 @@ def callback_inline(call):
     try:
         with open(constants.ban_list, encoding='utf-8') as data_file:
             ban_list = json.load(data_file)
-        with open(constants.user_list) as file:
-            user_data = json.load(file)
     except Exception:
         ban_list = {}
     with open(constants.user_list) as data_file:
