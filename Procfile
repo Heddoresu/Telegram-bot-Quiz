@@ -1,1 +1,1 @@
-web: python botAnimeQuizzes.py
+worker: python botAnimeQuizzes.py
