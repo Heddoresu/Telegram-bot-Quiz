@@ -73,7 +73,7 @@ def log(message):
     print("Сообщение от {0} {1}.(id = {2}) \nТекст - {3}".format(message.from_user.first_name,
                                                                  message.from_user.last_name,
                                                                  str(message.from_user.id),
-                                                                 message.text.encode("utf-8")))
+                                                                 message.text))
 
 
 def handle_lose(message, score_last: int, lang_text, type_quiz: str):
@@ -267,7 +267,7 @@ def setiings(message):
 
 @bot.message_handler(content_types=['text'])
 def handle_text(message):
-    log(message)
+    #log(message)
     global score_ind, ladder_type
     score_ind = 2
     lang_text = Generator.lang(message)
