@@ -1,7 +1,7 @@
 import os
 
 
-token = "677102972:AAHSCSnlJ3lJq2E4NBWomxjs_48JkHTkXG0"
+token = " "
 
 ladder = 'ladder.json'
 score_table = 'score_table.json'
