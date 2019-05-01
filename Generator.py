@@ -71,7 +71,7 @@ def emoji_dict(message):
 
 
 def theme_question(dict_theme, count):
-    """ Рандом перебор пар аниме-фотка и запись в список """
+    """ Random bust coupe anime-theme and writing to the list """
     anime = []
     theme = []
     level = "easy"

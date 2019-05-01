@@ -18,7 +18,6 @@ mas_emoji_quiz = {}
 
 
 def write_json_ladder(id_pars: str, file_type: str, score_last: int, type_quiz: str):
-    """ Запись значения в ладер файл """
     try:
         with open(file_type, encoding='utf-8') as data_file:
             data = json.load(data_file)
@@ -108,7 +107,6 @@ def handle_stop(message):
 @bot.message_handler(commands=['menu'])
 def handle_menu(message):
     lang_text = Generator.lang(message)
-    #print('ALARM')
     menu_markup = telebot.types.ReplyKeyboardMarkup(True, True)
     menu_markup.row('{0}'.format(lang_text["menu"][0]))
     menu_markup.row('{0}'.format(lang_text["menu"][1]))
@@ -271,8 +269,8 @@ def handle_text(message):
     global score_ind, ladder_type
     score_ind = 2
     lang_text = Generator.lang(message)
-    """ Меню"""
-    """ Виды викторины"""
+    """ Menu"""
+    """ Type of quiz"""
     if message.text == '{0}'.format(lang_text["menu"][0]):
         if str(message.from_user.id) in mas_photo_quiz:
             mas_photo_quiz.pop(str(message.from_user.id))
@@ -285,7 +283,7 @@ def handle_text(message):
         quiz_markup.row('{0}'.format(lang_text["playQuiz"][3]))
         bot.send_message(message.from_user.id, '{0}'.format(lang_text["playQuiz"][4]), reply_markup=quiz_markup)
         Generator.delet_bans()
-        """Типы ладера"""
+        """Ladder type"""
     elif message.text == '{0}'.format(lang_text["menu"][1]):
         ladder_markup = telebot.types.ReplyKeyboardMarkup(True, True)
         ladder_markup.row('{0}'.format(lang_text["ladder"][0]))
@@ -293,9 +291,9 @@ def handle_text(message):
         ladder_markup.row('{0}'.format(lang_text["ladder"][2]))
         ladder_markup.row('{0}'.format(lang_text["ladder"][3]))
         bot.send_message(message.from_user.id, '{0}'.format(lang_text["ladder"][4]), reply_markup=ladder_markup)
-        """ Выход в меню"""
+        """ Exit to menu"""
     elif message.text == '{0}'.format(lang_text["exit"]):
-        """ Удаление из хранилища"""
+        """ Delete from storage"""
         if str(message.from_user.id) in mas_photo_quiz:
             mas_photo_quiz.pop(str(message.from_user.id))
         elif str(message.from_user.id) in mas_emoji_quiz:
@@ -303,15 +301,15 @@ def handle_text(message):
         elif str(message.from_user.id) in mas_audio_quiz:
             mas_audio_quiz.pop(str(message.from_user.id))
         handle_menu(message)
-        """ Викторины """
-        """ Обновление """
+        """ Quiz """
+        """ Updates """
     elif message.text == '{0}'.format(lang_text["refresh"]["photo"]):
         handle_photo_quiz(message, lang_text)
     elif message.text == '{0}'.format(lang_text["refresh"]["audio"]):
         handle_audio_quiz(message, lang_text)
     elif message.text == '{0}'.format(lang_text["refresh"]["emoji"]):
         handle_emoji_quiz(message, lang_text)
-        """ Фото викторина """
+        """ Photo Quiz """
     elif message.text == '{0}'.format(lang_text["playQuiz"][0]):
         ladder_type = 'photo'
         handle_photo_quiz(message, lang_text)
@@ -330,7 +328,7 @@ def handle_text(message):
                 handle_lose(message, sc_table[ladder_type][str(message.from_user.id)], lang_text, ladder_type)
             else:
                 handle_lose(message, 0, lang_text, ladder_type)
-        """Музыкальная викториа"""
+        """Audio Quiz"""
     elif message.text == '{0}'.format(lang_text["playQuiz"][1]):
         ladder_type = 'audio'
         handle_audio_quiz(message, lang_text)
@@ -349,7 +347,7 @@ def handle_text(message):
                 handle_lose(message, sc_table[ladder_type][str(message.from_user.id)], lang_text, ladder_type)
             else:
                 handle_lose(message, 0, lang_text, ladder_type)
-        """Емоджи викторина"""
+        """Emoji Quiz"""
     elif message.text == '{0}'.format(lang_text["playQuiz"][2]):
         ladder_type = 'emoji'
         handle_emoji_quiz(message, lang_text)
@@ -368,17 +366,17 @@ def handle_text(message):
                 handle_lose(message, sc_table[ladder_type][str(message.from_user.id)], lang_text, ladder_type)
             else:
                 handle_lose(message, 0, lang_text, ladder_type)
-        """ Рейтинги """
+        """ Ladder """
     elif message.text == '{0}'.format(lang_text["ladder"][0]):
         ladder_print(message, 'photo', lang_text)
     elif message.text == '{0}'.format(lang_text["ladder"][1]):
         ladder_print(message, 'audio', lang_text)
     elif message.text == '{0}'.format(lang_text["ladder"][2]):
         ladder_print(message, 'emoji', lang_text)
-        "Добавление контента"
+        "Add content"
     elif message.text == '{0}'.format(lang_text["menu"][4]):
         bot.send_message(message.from_user.id, '{0}'.format(lang_text["content"]))
-        """Смена языка """
+        """Change language"""
     elif message.text == '{0}'.format(lang_text["settings"]):
         handle_start(message)
     else:
